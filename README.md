@@ -121,7 +121,7 @@ O emulador de sensor aceita vários argumentos de linha de comando que permitem 
 Aqui está um exemplo de como executar o emulador de sensor com argumentos personalizados:
 
 ```bash
-python3 sensor_emulator.py --ip 192.168.1.100 --port 8000 --sensor_id my_sensor --frequency 500
+python3 sensor_emulator.py --ip 127.0.0.1 --port 9000 --sensor_id my_sensor --frequency 500
 ```
 
 Este comando fará com que o emulador de sensor se conecte a um servidor em 192.168.1.100 na porta 8000, use 'my_sensor' como a ID do sensor, e envie uma nova leitura a cada 500 milissegundos.
